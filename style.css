@@ -11,21 +11,19 @@ body {
   height: 100vh;
   align-items: center;
   justify-content: center;
-  background: #dfdfdf;
+  background: #aaaaaa;
 }
 
 h3 {
   color: #faf9f6;
   font-size: 40px;
   font-weight: 900;
-  text-shadow: 0 0 5px black;
 }
 
 span {
   color: #2ecc70e0;
   font-size: 40px;
   font-weight: 900;
-  text-shadow: 0 0 5px black;
 }
 
 p {

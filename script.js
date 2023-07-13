@@ -1,3 +1,16 @@
+function password() {
+  passwordOne.textContent = "";
+  passwordTwo.textContent = "";
+  for (let i = 0; i < 15; i++) {
+    passwordOne.textContent +=
+      characters[Math.floor(Math.random() * characters.length)];
+    passwordTwo.textContent +=
+      characters[Math.floor(Math.random() * characters.length)];
+  }
+}
+
+let passwordOne = document.querySelector("#password-one-el");
+let passwordTwo = document.querySelector("#password-two-el");
 const characters = [
   "A",
   "B",
